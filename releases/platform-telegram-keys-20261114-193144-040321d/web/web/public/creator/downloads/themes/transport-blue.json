@@ -1,0 +1,24 @@
+{
+  "elements": {
+    "transport.play": {
+      "background": "#224A70",
+      "foreground": "#F4F8FC",
+      "material": "glass",
+      "radius": 6,
+      "states": {
+        "focused": {
+          "border": "#9DCEFA",
+          "borderWidth": 2
+        },
+        "hover": {
+          "background": "#316593"
+        },
+        "pressed": {
+          "background": "#18354F"
+        }
+      }
+    }
+  },
+  "name": "Transport Blue",
+  "schemaVersion": 2
+}

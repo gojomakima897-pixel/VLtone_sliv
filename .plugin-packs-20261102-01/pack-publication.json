@@ -1,0 +1,15 @@
+{
+  "storage_id": "6b668304-8be7-44f3-8e45-1a39159adcb8",
+  "id": "vlt.cl1",
+  "version": "1.0.0",
+  "platform": "windows-x64",
+  "api": 1,
+  "title": "VLT CL1",
+  "description": "\u041e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u043e\u0440 \u0441 \u0442\u0440\u0435\u043c\u044f \u0440\u0435\u0436\u0438\u043c\u0430\u043c\u0438 \u0432\u0440\u0435\u043c\u0435\u043d\u0438, \u0433\u0440\u0443\u043f\u043f\u0430\u043c\u0438 LINK \u0438 \u043e\u0431\u044a\u0451\u043c\u043d\u044b\u043c \u0438\u043d\u0442\u0435\u0440\u0444\u0435\u0439\u0441\u043e\u043c VLT.",
+  "download_bytes": 114200430,
+  "installed_bytes": 113894265,
+  "sha256": "98610600c63d5c26f41ef8d8ebf4c6a2f14e42408e9403237ccedfe48cf1920d",
+  "created_at": "2026-11-02T17:10:36.691209Z",
+  "published_at": "2026-11-02T18:41:27.250955Z",
+  "hidden": false
+}

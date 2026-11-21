@@ -1,0 +1,2 @@
+ALTER TABLE support_keys DROP CONSTRAINT support_keys_installation_redemption;
+ALTER TABLE support_keys DROP COLUMN redeemed_installation_id;

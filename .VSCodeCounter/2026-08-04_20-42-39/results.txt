@@ -1,0 +1,196 @@
+Date : 2026-08-04 20:42:39
+Directory : /Users/nikolay/Documents/code/daw
+Total : 120 files,  15863 codes, 451 comments, 2601 blanks, all 18915 lines
+
+Languages
++---------------+------------+------------+------------+------------+------------+
+| language      | files      | code       | comment    | blank      | total      |
++---------------+------------+------------+------------+------------+------------+
+| Swift         |         68 |      9,705 |        213 |      1,303 |     11,221 |
+| C++           |         48 |      5,504 |        237 |      1,142 |      6,883 |
+| Objective-C++ |          1 |        556 |          1 |        136 |        693 |
+| Markdown      |          1 |         51 |          0 |         16 |         67 |
+| YAML          |          1 |         41 |          0 |          3 |         44 |
+| JSON          |          1 |          6 |          0 |          1 |          7 |
++---------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |        120 |     15,863 |        451 |      2,601 |     18,915 |
+| . (Files)                                                                              |          1 |         41 |          0 |          3 |         44 |
+| .sisyphus                                                                              |          1 |         51 |          0 |         16 |         67 |
+| .sisyphus/summaries                                                                    |          1 |         51 |          0 |         16 |         67 |
+| DAW                                                                                    |        118 |     15,771 |        451 |      2,582 |     18,804 |
+| DAW (Files)                                                                            |          1 |          1 |          0 |          1 |          2 |
+| DAW/App                                                                                |          4 |        435 |          2 |         68 |        505 |
+| DAW/AudioEngine                                                                        |         46 |      5,374 |        224 |      1,123 |      6,721 |
+| DAW/AudioEngine/Clip                                                                   |          2 |        119 |          0 |         25 |        144 |
+| DAW/AudioEngine/Core                                                                   |          7 |      1,215 |         82 |        214 |      1,511 |
+| DAW/AudioEngine/DSP                                                                    |          1 |         31 |          0 |         10 |         41 |
+| DAW/AudioEngine/Device                                                                 |          2 |      1,245 |        103 |        160 |      1,508 |
+| DAW/AudioEngine/MIDI                                                                   |          7 |        353 |          0 |        109 |        462 |
+| DAW/AudioEngine/Mixer                                                                  |          4 |        441 |         14 |         98 |        553 |
+| DAW/AudioEngine/Playback                                                               |          6 |        504 |          0 |        144 |        648 |
+| DAW/AudioEngine/Plugin                                                                 |          3 |        188 |          0 |         54 |        242 |
+| DAW/AudioEngine/Recording                                                              |          2 |        164 |          0 |         41 |        205 |
+| DAW/AudioEngine/Render                                                                 |          2 |        178 |          0 |         44 |        222 |
+| DAW/AudioEngine/Routing                                                                |          2 |        277 |         17 |         52 |        346 |
+| DAW/AudioEngine/Tempo                                                                  |          2 |        138 |          0 |         34 |        172 |
+| DAW/AudioEngine/Track                                                                  |          4 |        360 |          8 |         99 |        467 |
+| DAW/AudioEngine/Transport                                                              |          2 |        161 |          0 |         39 |        200 |
+| DAW/Bridge                                                                             |          2 |        685 |         14 |        154 |        853 |
+| DAW/Features                                                                           |         41 |      6,595 |        121 |        849 |      7,565 |
+| DAW/Features/BottomEditor                                                              |          1 |         94 |          0 |          7 |        101 |
+| DAW/Features/CommandPalette                                                            |          1 |        154 |          0 |         12 |        166 |
+| DAW/Features/Debug                                                                     |         15 |      1,799 |         11 |        193 |      2,003 |
+| DAW/Features/DevTools                                                                  |          1 |         33 |          0 |          5 |         38 |
+| DAW/Features/Inspector                                                                 |          1 |        124 |          0 |         16 |        140 |
+| DAW/Features/Metering                                                                  |          2 |        325 |         59 |         63 |        447 |
+| DAW/Features/Mixer                                                                     |          1 |        271 |          0 |         34 |        305 |
+| DAW/Features/PianoRoll                                                                 |          1 |        180 |          0 |         23 |        203 |
+| DAW/Features/Settings                                                                  |          3 |        706 |         16 |        101 |        823 |
+| DAW/Features/Sidebar                                                                   |          2 |        319 |          0 |         30 |        349 |
+| DAW/Features/Timeline                                                                  |          4 |        641 |          5 |        109 |        755 |
+| DAW/Features/Toolbar                                                                   |          1 |        166 |          0 |         12 |        178 |
+| DAW/Features/Tracks                                                                    |          6 |      1,649 |         30 |        218 |      1,897 |
+| DAW/Features/Transport                                                                 |          2 |        134 |          0 |         26 |        160 |
+| DAW/Resources                                                                          |          1 |          6 |          0 |          1 |          7 |
+| DAW/Resources/Assets.xcassets                                                          |          1 |          6 |          0 |          1 |          7 |
+| DAW/Services                                                                           |          8 |        982 |         20 |        184 |      1,186 |
+| DAW/Shared                                                                             |         15 |      1,693 |         70 |        202 |      1,965 |
+| DAW/Shared (Files)                                                                     |          1 |         79 |          3 |         22 |        104 |
+| DAW/Shared/Components                                                                  |          1 |         45 |          0 |          6 |         51 |
+| DAW/Shared/DesignSystem                                                                |          5 |        427 |         50 |         64 |        541 |
+| DAW/Shared/Extensions                                                                  |          2 |         57 |         15 |         14 |         86 |
+| DAW/Shared/Models                                                                      |          5 |      1,034 |          2 |         88 |      1,124 |
+| DAW/Shared/State                                                                       |          1 |         51 |          0 |          8 |         59 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+
+| filename                                                                               | language      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+
+| /Users/nikolay/Documents/code/daw/.sisyphus/summaries/2026-06-16-diagnostics-fix.md    | Markdown      |         51 |          0 |         16 |         67 |
+| /Users/nikolay/Documents/code/daw/DAW/App/AppDelegate.swift                            | Swift         |         23 |          0 |          7 |         30 |
+| /Users/nikolay/Documents/code/daw/DAW/App/ContentView.swift                            | Swift         |        300 |          2 |         36 |        338 |
+| /Users/nikolay/Documents/code/daw/DAW/App/DAWApp.swift                                 | Swift         |         91 |          0 |         19 |        110 |
+| /Users/nikolay/Documents/code/daw/DAW/App/DependencyContainer.swift                    | Swift         |         21 |          0 |          6 |         27 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Clip/ClipManager.cpp                 | C++           |         82 |          0 |         14 |         96 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Clip/ClipManager.hpp                 | C++           |         37 |          0 |         11 |         48 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/AudioBuffer.hpp                 | C++           |        150 |          0 |         25 |        175 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/AudioEngine.cpp                 | C++           |        539 |         60 |         99 |        698 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/AudioEngine.hpp                 | C++           |        184 |         22 |         32 |        238 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/IAudioCallback.hpp              | C++           |         26 |          0 |          7 |         33 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/LockFreeQueue.hpp               | C++           |        126 |          0 |         23 |        149 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/Result.hpp                      | C++           |         90 |          0 |         10 |        100 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Core/Types.hpp                       | C++           |        100 |          0 |         18 |        118 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/DSP/WaveformGenerator.hpp            | C++           |         31 |          0 |         10 |         41 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Device/AudioDeviceManager.cpp        | C++           |      1,077 |        102 |        133 |      1,312 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Device/AudioDeviceManager.hpp        | C++           |        168 |          1 |         27 |        196 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiClip.cpp                    | C++           |         74 |          0 |         19 |         93 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiClip.hpp                    | C++           |         67 |          0 |         25 |         92 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiEngine.cpp                  | C++           |         42 |          0 |         11 |         53 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiEngine.hpp                  | C++           |         43 |          0 |         18 |         61 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiEvent.hpp                   | C++           |         63 |          0 |         14 |         77 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiScheduler.cpp               | C++           |         41 |          0 |         12 |         53 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/MIDI/MidiScheduler.hpp               | C++           |         23 |          0 |         10 |         33 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Mixer/ChannelStrip.cpp               | C++           |        109 |          3 |         25 |        137 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Mixer/ChannelStrip.hpp               | C++           |         71 |          2 |         26 |         99 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Mixer/MixerEngine.cpp                | C++           |        192 |          2 |         30 |        224 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Mixer/MixerEngine.hpp                | C++           |         69 |          7 |         17 |         93 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/AudioClip.cpp               | C++           |         61 |          0 |         15 |         76 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/AudioClip.hpp               | C++           |         63 |          0 |         26 |         89 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/AudioSource.cpp             | C++           |        154 |          0 |         40 |        194 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/AudioSource.hpp             | C++           |         62 |          0 |         20 |         82 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/PlaybackEngine.cpp          | C++           |        112 |          0 |         25 |        137 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Playback/PlaybackEngine.hpp          | C++           |         52 |          0 |         18 |         70 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Plugin/Plugin.cpp                    | C++           |         70 |          0 |         16 |         86 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Plugin/Plugin.hpp                    | C++           |         84 |          0 |         27 |        111 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Plugin/PluginHost.hpp                | C++           |         34 |          0 |         11 |         45 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Recording/RecordingEngine.cpp        | C++           |        110 |          0 |         23 |        133 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Recording/RecordingEngine.hpp        | C++           |         54 |          0 |         18 |         72 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Render/RenderEngine.cpp              | C++           |        100 |          0 |         24 |        124 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Render/RenderEngine.hpp              | C++           |         78 |          0 |         20 |         98 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Routing/RoutingEngine.cpp            | C++           |        219 |         12 |         33 |        264 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Routing/RoutingEngine.hpp            | C++           |         58 |          5 |         19 |         82 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Tempo/TempoEngine.cpp                | C++           |         79 |          0 |         17 |         96 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Tempo/TempoEngine.hpp                | C++           |         59 |          0 |         17 |         76 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Track/Track.cpp                      | C++           |         30 |          0 |         11 |         41 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Track/Track.hpp                      | C++           |        137 |          7 |         47 |        191 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Track/TrackManager.cpp               | C++           |        147 |          0 |         22 |        169 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Track/TrackManager.hpp               | C++           |         46 |          1 |         19 |         66 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Transport/TransportEngine.cpp        | C++           |         88 |          0 |         19 |        107 |
+| /Users/nikolay/Documents/code/daw/DAW/AudioEngine/Transport/TransportEngine.hpp        | C++           |         73 |          0 |         20 |         93 |
+| /Users/nikolay/Documents/code/daw/DAW/Bridge/AudioEngineBridge.h                       | C++           |        129 |         13 |         18 |        160 |
+| /Users/nikolay/Documents/code/daw/DAW/Bridge/AudioEngineBridge.mm                      | Objective-C++ |        556 |          1 |        136 |        693 |
+| /Users/nikolay/Documents/code/daw/DAW/DAW-Bridging-Header.h                            | C++           |          1 |          0 |          1 |          2 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/BottomEditor/BottomEditorView.swift     | Swift         |         94 |          0 |          7 |        101 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/CommandPalette/CommandPaletteView.swift | Swift         |        154 |          0 |         12 |        166 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/AudioDeviceDebugView.swift        | Swift         |         54 |          0 |          7 |         61 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/DebugBottomPanel.swift            | Swift         |        130 |          0 |         14 |        144 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/DebugConsoleView.swift            | Swift         |         65 |          0 |          6 |         71 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/EngineDebugManager.swift          | Swift         |        257 |          1 |         33 |        291 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/MidiDebugView.swift               | Swift         |        114 |          0 |         11 |        125 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/MixerDebugView.swift              | Swift         |        101 |          0 |         10 |        111 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/MonitoringDebugView.swift         | Swift         |        418 |         10 |         44 |        472 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/PluginHostDebugView.swift         | Swift         |         87 |          0 |          8 |         95 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/ProjectInspectorView.swift        | Swift         |         53 |          0 |          8 |         61 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/RecordingDebugView.swift          | Swift         |         78 |          0 |          9 |         87 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/RoutingDebugView.swift            | Swift         |         84 |          0 |          7 |         91 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/TempoDebugView.swift              | Swift         |         81 |          0 |          8 |         89 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/TrackDebugView.swift              | Swift         |        133 |          0 |         11 |        144 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/TransportDebugView.swift          | Swift         |         56 |          0 |          7 |         63 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Debug/WaveformDebugView.swift           | Swift         |         88 |          0 |         10 |         98 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/DevTools/DevToolsView.swift             | Swift         |         33 |          0 |          5 |         38 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Inspector/InspectorView.swift           | Swift         |        124 |          0 |         16 |        140 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Metering/MasterMeterView.swift          | Swift         |        220 |         34 |         39 |        293 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Metering/TrackMeterView.swift           | Swift         |        105 |         25 |         24 |        154 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Mixer/MixerView.swift                   | Swift         |        271 |          0 |         34 |        305 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/PianoRoll/PianoRollView.swift           | Swift         |        180 |          0 |         23 |        203 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Settings/AudioPreferencesView.swift     | Swift         |        324 |          7 |         47 |        378 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Settings/PerformancePanelView.swift     | Swift         |        107 |          0 |         19 |        126 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Settings/ThemeSettingsView.swift        | Swift         |        275 |          9 |         35 |        319 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Sidebar/LibraryBrowserView.swift        | Swift         |        276 |          0 |         25 |        301 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Sidebar/SidebarView.swift               | Swift         |         43 |          0 |          5 |         48 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Timeline/MetalTimelineRenderer.swift    | Swift         |        372 |          5 |         65 |        442 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Timeline/TimelineMetalView.swift        | Swift         |         80 |          0 |         20 |        100 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Timeline/TimelineView.swift             | Swift         |         99 |          0 |         11 |        110 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Timeline/TimelineViewModel.swift        | Swift         |         90 |          0 |         13 |        103 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Toolbar/DAWToolbarView.swift            | Swift         |        166 |          0 |         12 |        178 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/DragState.swift                  | Swift         |         26 |          0 |          5 |         31 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/SelectionStore.swift             | Swift         |         53 |          0 |         10 |         63 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/TrackCreationSheet.swift         | Swift         |        297 |          0 |         25 |        322 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/TrackInputConfiguration.swift    | Swift         |         53 |          0 |          9 |         62 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/TrackListView.swift              | Swift         |        821 |         15 |        102 |        938 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Tracks/TrackListViewModel.swift         | Swift         |        399 |         15 |         67 |        481 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Transport/TransportView.swift           | Swift         |        110 |          0 |         22 |        132 |
+| /Users/nikolay/Documents/code/daw/DAW/Features/Transport/TransportViewModel.swift      | Swift         |         24 |          0 |          4 |         28 |
+| /Users/nikolay/Documents/code/daw/DAW/Resources/Assets.xcassets/Contents.json          | JSON          |          6 |          0 |          1 |          7 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/AudioDeviceManager.swift                | Swift         |        317 |          0 |         44 |        361 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/AudioService.swift                      | Swift         |        156 |          8 |         33 |        197 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/AudioSettings.swift                     | Swift         |        102 |          0 |         23 |        125 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/InputMonitoringManager.swift            | Swift         |         74 |          3 |         17 |         94 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/MeteringManager.swift                   | Swift         |        126 |          3 |         19 |        148 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/ProjectService.swift                    | Swift         |         88 |          0 |         22 |        110 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/SoloStereoManager.swift                 | Swift         |         47 |          6 |         11 |         64 |
+| /Users/nikolay/Documents/code/daw/DAW/Services/WaveformService.swift                   | Swift         |         72 |          0 |         15 |         87 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Components/ResizablePanel.swift           | Swift         |         45 |          0 |          6 |         51 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/DesignSystem/AppTheme.swift               | Swift         |         36 |          2 |         10 |         48 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/DesignSystem/DAWColors.swift              | Swift         |         36 |          3 |          3 |         42 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/DesignSystem/Theme.swift                  | Swift         |         81 |         13 |         18 |        112 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/DesignSystem/ThemeManager.swift           | Swift         |         84 |         20 |         21 |        125 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/DesignSystem/ThemePresets.swift           | Swift         |        190 |         12 |         12 |        214 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Extensions/AudioLevels.swift              | Swift         |         44 |         15 |         12 |         71 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Extensions/FoundationExtensions.swift     | Swift         |         13 |          0 |          2 |         15 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Models/AudioClip.swift                    | Swift         |         50 |          0 |          5 |         55 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Models/Project.swift                      | Swift         |         88 |          0 |         10 |         98 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Models/Track.swift                        | Swift         |        788 |          1 |         59 |        848 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Models/TrackTemplate.swift                | Swift         |         77 |          1 |          9 |         87 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/Models/TransportState.swift               | Swift         |         31 |          0 |          5 |         36 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/PerformanceLogger.swift                   | Swift         |         79 |          3 |         22 |        104 |
+| /Users/nikolay/Documents/code/daw/DAW/Shared/State/WorkspaceState.swift                | Swift         |         51 |          0 |          8 |         59 |
+| /Users/nikolay/Documents/code/daw/project.yml                                          | YAML          |         41 |          0 |          3 |         44 |
+| Total                                                                                  |               |     15,863 |        451 |      2,601 |     18,915 |
++----------------------------------------------------------------------------------------+---------------+------------+------------+------------+------------+

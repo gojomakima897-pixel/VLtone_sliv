@@ -1,0 +1,135 @@
+# Details
+
+Date : 2026-08-04 20:42:39
+
+Directory /Users/nikolay/Documents/code/daw
+
+Total : 120 files,  15863 codes, 451 comments, 2601 blanks, all 18915 lines
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
+
+## Files
+| filename | language | code | comment | blank | total |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| [.sisyphus/summaries/2026-06-16-diagnostics-fix.md](/.sisyphus/summaries/2026-06-16-diagnostics-fix.md) | Markdown | 51 | 0 | 16 | 67 |
+| [DAW/App/AppDelegate.swift](/DAW/App/AppDelegate.swift) | Swift | 23 | 0 | 7 | 30 |
+| [DAW/App/ContentView.swift](/DAW/App/ContentView.swift) | Swift | 300 | 2 | 36 | 338 |
+| [DAW/App/DAWApp.swift](/DAW/App/DAWApp.swift) | Swift | 91 | 0 | 19 | 110 |
+| [DAW/App/DependencyContainer.swift](/DAW/App/DependencyContainer.swift) | Swift | 21 | 0 | 6 | 27 |
+| [DAW/AudioEngine/Clip/ClipManager.cpp](/DAW/AudioEngine/Clip/ClipManager.cpp) | C++ | 82 | 0 | 14 | 96 |
+| [DAW/AudioEngine/Clip/ClipManager.hpp](/DAW/AudioEngine/Clip/ClipManager.hpp) | C++ | 37 | 0 | 11 | 48 |
+| [DAW/AudioEngine/Core/AudioBuffer.hpp](/DAW/AudioEngine/Core/AudioBuffer.hpp) | C++ | 150 | 0 | 25 | 175 |
+| [DAW/AudioEngine/Core/AudioEngine.cpp](/DAW/AudioEngine/Core/AudioEngine.cpp) | C++ | 539 | 60 | 99 | 698 |
+| [DAW/AudioEngine/Core/AudioEngine.hpp](/DAW/AudioEngine/Core/AudioEngine.hpp) | C++ | 184 | 22 | 32 | 238 |
+| [DAW/AudioEngine/Core/IAudioCallback.hpp](/DAW/AudioEngine/Core/IAudioCallback.hpp) | C++ | 26 | 0 | 7 | 33 |
+| [DAW/AudioEngine/Core/LockFreeQueue.hpp](/DAW/AudioEngine/Core/LockFreeQueue.hpp) | C++ | 126 | 0 | 23 | 149 |
+| [DAW/AudioEngine/Core/Result.hpp](/DAW/AudioEngine/Core/Result.hpp) | C++ | 90 | 0 | 10 | 100 |
+| [DAW/AudioEngine/Core/Types.hpp](/DAW/AudioEngine/Core/Types.hpp) | C++ | 100 | 0 | 18 | 118 |
+| [DAW/AudioEngine/DSP/WaveformGenerator.hpp](/DAW/AudioEngine/DSP/WaveformGenerator.hpp) | C++ | 31 | 0 | 10 | 41 |
+| [DAW/AudioEngine/Device/AudioDeviceManager.cpp](/DAW/AudioEngine/Device/AudioDeviceManager.cpp) | C++ | 1,077 | 102 | 133 | 1,312 |
+| [DAW/AudioEngine/Device/AudioDeviceManager.hpp](/DAW/AudioEngine/Device/AudioDeviceManager.hpp) | C++ | 168 | 1 | 27 | 196 |
+| [DAW/AudioEngine/MIDI/MidiClip.cpp](/DAW/AudioEngine/MIDI/MidiClip.cpp) | C++ | 74 | 0 | 19 | 93 |
+| [DAW/AudioEngine/MIDI/MidiClip.hpp](/DAW/AudioEngine/MIDI/MidiClip.hpp) | C++ | 67 | 0 | 25 | 92 |
+| [DAW/AudioEngine/MIDI/MidiEngine.cpp](/DAW/AudioEngine/MIDI/MidiEngine.cpp) | C++ | 42 | 0 | 11 | 53 |
+| [DAW/AudioEngine/MIDI/MidiEngine.hpp](/DAW/AudioEngine/MIDI/MidiEngine.hpp) | C++ | 43 | 0 | 18 | 61 |
+| [DAW/AudioEngine/MIDI/MidiEvent.hpp](/DAW/AudioEngine/MIDI/MidiEvent.hpp) | C++ | 63 | 0 | 14 | 77 |
+| [DAW/AudioEngine/MIDI/MidiScheduler.cpp](/DAW/AudioEngine/MIDI/MidiScheduler.cpp) | C++ | 41 | 0 | 12 | 53 |
+| [DAW/AudioEngine/MIDI/MidiScheduler.hpp](/DAW/AudioEngine/MIDI/MidiScheduler.hpp) | C++ | 23 | 0 | 10 | 33 |
+| [DAW/AudioEngine/Mixer/ChannelStrip.cpp](/DAW/AudioEngine/Mixer/ChannelStrip.cpp) | C++ | 109 | 3 | 25 | 137 |
+| [DAW/AudioEngine/Mixer/ChannelStrip.hpp](/DAW/AudioEngine/Mixer/ChannelStrip.hpp) | C++ | 71 | 2 | 26 | 99 |
+| [DAW/AudioEngine/Mixer/MixerEngine.cpp](/DAW/AudioEngine/Mixer/MixerEngine.cpp) | C++ | 192 | 2 | 30 | 224 |
+| [DAW/AudioEngine/Mixer/MixerEngine.hpp](/DAW/AudioEngine/Mixer/MixerEngine.hpp) | C++ | 69 | 7 | 17 | 93 |
+| [DAW/AudioEngine/Playback/AudioClip.cpp](/DAW/AudioEngine/Playback/AudioClip.cpp) | C++ | 61 | 0 | 15 | 76 |
+| [DAW/AudioEngine/Playback/AudioClip.hpp](/DAW/AudioEngine/Playback/AudioClip.hpp) | C++ | 63 | 0 | 26 | 89 |
+| [DAW/AudioEngine/Playback/AudioSource.cpp](/DAW/AudioEngine/Playback/AudioSource.cpp) | C++ | 154 | 0 | 40 | 194 |
+| [DAW/AudioEngine/Playback/AudioSource.hpp](/DAW/AudioEngine/Playback/AudioSource.hpp) | C++ | 62 | 0 | 20 | 82 |
+| [DAW/AudioEngine/Playback/PlaybackEngine.cpp](/DAW/AudioEngine/Playback/PlaybackEngine.cpp) | C++ | 112 | 0 | 25 | 137 |
+| [DAW/AudioEngine/Playback/PlaybackEngine.hpp](/DAW/AudioEngine/Playback/PlaybackEngine.hpp) | C++ | 52 | 0 | 18 | 70 |
+| [DAW/AudioEngine/Plugin/Plugin.cpp](/DAW/AudioEngine/Plugin/Plugin.cpp) | C++ | 70 | 0 | 16 | 86 |
+| [DAW/AudioEngine/Plugin/Plugin.hpp](/DAW/AudioEngine/Plugin/Plugin.hpp) | C++ | 84 | 0 | 27 | 111 |
+| [DAW/AudioEngine/Plugin/PluginHost.hpp](/DAW/AudioEngine/Plugin/PluginHost.hpp) | C++ | 34 | 0 | 11 | 45 |
+| [DAW/AudioEngine/Recording/RecordingEngine.cpp](/DAW/AudioEngine/Recording/RecordingEngine.cpp) | C++ | 110 | 0 | 23 | 133 |
+| [DAW/AudioEngine/Recording/RecordingEngine.hpp](/DAW/AudioEngine/Recording/RecordingEngine.hpp) | C++ | 54 | 0 | 18 | 72 |
+| [DAW/AudioEngine/Render/RenderEngine.cpp](/DAW/AudioEngine/Render/RenderEngine.cpp) | C++ | 100 | 0 | 24 | 124 |
+| [DAW/AudioEngine/Render/RenderEngine.hpp](/DAW/AudioEngine/Render/RenderEngine.hpp) | C++ | 78 | 0 | 20 | 98 |
+| [DAW/AudioEngine/Routing/RoutingEngine.cpp](/DAW/AudioEngine/Routing/RoutingEngine.cpp) | C++ | 219 | 12 | 33 | 264 |
+| [DAW/AudioEngine/Routing/RoutingEngine.hpp](/DAW/AudioEngine/Routing/RoutingEngine.hpp) | C++ | 58 | 5 | 19 | 82 |
+| [DAW/AudioEngine/Tempo/TempoEngine.cpp](/DAW/AudioEngine/Tempo/TempoEngine.cpp) | C++ | 79 | 0 | 17 | 96 |
+| [DAW/AudioEngine/Tempo/TempoEngine.hpp](/DAW/AudioEngine/Tempo/TempoEngine.hpp) | C++ | 59 | 0 | 17 | 76 |
+| [DAW/AudioEngine/Track/Track.cpp](/DAW/AudioEngine/Track/Track.cpp) | C++ | 30 | 0 | 11 | 41 |
+| [DAW/AudioEngine/Track/Track.hpp](/DAW/AudioEngine/Track/Track.hpp) | C++ | 137 | 7 | 47 | 191 |
+| [DAW/AudioEngine/Track/TrackManager.cpp](/DAW/AudioEngine/Track/TrackManager.cpp) | C++ | 147 | 0 | 22 | 169 |
+| [DAW/AudioEngine/Track/TrackManager.hpp](/DAW/AudioEngine/Track/TrackManager.hpp) | C++ | 46 | 1 | 19 | 66 |
+| [DAW/AudioEngine/Transport/TransportEngine.cpp](/DAW/AudioEngine/Transport/TransportEngine.cpp) | C++ | 88 | 0 | 19 | 107 |
+| [DAW/AudioEngine/Transport/TransportEngine.hpp](/DAW/AudioEngine/Transport/TransportEngine.hpp) | C++ | 73 | 0 | 20 | 93 |
+| [DAW/Bridge/AudioEngineBridge.h](/DAW/Bridge/AudioEngineBridge.h) | C++ | 129 | 13 | 18 | 160 |
+| [DAW/Bridge/AudioEngineBridge.mm](/DAW/Bridge/AudioEngineBridge.mm) | Objective-C++ | 556 | 1 | 136 | 693 |
+| [DAW/DAW-Bridging-Header.h](/DAW/DAW-Bridging-Header.h) | C++ | 1 | 0 | 1 | 2 |
+| [DAW/Features/BottomEditor/BottomEditorView.swift](/DAW/Features/BottomEditor/BottomEditorView.swift) | Swift | 94 | 0 | 7 | 101 |
+| [DAW/Features/CommandPalette/CommandPaletteView.swift](/DAW/Features/CommandPalette/CommandPaletteView.swift) | Swift | 154 | 0 | 12 | 166 |
+| [DAW/Features/Debug/AudioDeviceDebugView.swift](/DAW/Features/Debug/AudioDeviceDebugView.swift) | Swift | 54 | 0 | 7 | 61 |
+| [DAW/Features/Debug/DebugBottomPanel.swift](/DAW/Features/Debug/DebugBottomPanel.swift) | Swift | 130 | 0 | 14 | 144 |
+| [DAW/Features/Debug/DebugConsoleView.swift](/DAW/Features/Debug/DebugConsoleView.swift) | Swift | 65 | 0 | 6 | 71 |
+| [DAW/Features/Debug/EngineDebugManager.swift](/DAW/Features/Debug/EngineDebugManager.swift) | Swift | 257 | 1 | 33 | 291 |
+| [DAW/Features/Debug/MidiDebugView.swift](/DAW/Features/Debug/MidiDebugView.swift) | Swift | 114 | 0 | 11 | 125 |
+| [DAW/Features/Debug/MixerDebugView.swift](/DAW/Features/Debug/MixerDebugView.swift) | Swift | 101 | 0 | 10 | 111 |
+| [DAW/Features/Debug/MonitoringDebugView.swift](/DAW/Features/Debug/MonitoringDebugView.swift) | Swift | 418 | 10 | 44 | 472 |
+| [DAW/Features/Debug/PluginHostDebugView.swift](/DAW/Features/Debug/PluginHostDebugView.swift) | Swift | 87 | 0 | 8 | 95 |
+| [DAW/Features/Debug/ProjectInspectorView.swift](/DAW/Features/Debug/ProjectInspectorView.swift) | Swift | 53 | 0 | 8 | 61 |
+| [DAW/Features/Debug/RecordingDebugView.swift](/DAW/Features/Debug/RecordingDebugView.swift) | Swift | 78 | 0 | 9 | 87 |
+| [DAW/Features/Debug/RoutingDebugView.swift](/DAW/Features/Debug/RoutingDebugView.swift) | Swift | 84 | 0 | 7 | 91 |
+| [DAW/Features/Debug/TempoDebugView.swift](/DAW/Features/Debug/TempoDebugView.swift) | Swift | 81 | 0 | 8 | 89 |
+| [DAW/Features/Debug/TrackDebugView.swift](/DAW/Features/Debug/TrackDebugView.swift) | Swift | 133 | 0 | 11 | 144 |
+| [DAW/Features/Debug/TransportDebugView.swift](/DAW/Features/Debug/TransportDebugView.swift) | Swift | 56 | 0 | 7 | 63 |
+| [DAW/Features/Debug/WaveformDebugView.swift](/DAW/Features/Debug/WaveformDebugView.swift) | Swift | 88 | 0 | 10 | 98 |
+| [DAW/Features/DevTools/DevToolsView.swift](/DAW/Features/DevTools/DevToolsView.swift) | Swift | 33 | 0 | 5 | 38 |
+| [DAW/Features/Inspector/InspectorView.swift](/DAW/Features/Inspector/InspectorView.swift) | Swift | 124 | 0 | 16 | 140 |
+| [DAW/Features/Metering/MasterMeterView.swift](/DAW/Features/Metering/MasterMeterView.swift) | Swift | 220 | 34 | 39 | 293 |
+| [DAW/Features/Metering/TrackMeterView.swift](/DAW/Features/Metering/TrackMeterView.swift) | Swift | 105 | 25 | 24 | 154 |
+| [DAW/Features/Mixer/MixerView.swift](/DAW/Features/Mixer/MixerView.swift) | Swift | 271 | 0 | 34 | 305 |
+| [DAW/Features/PianoRoll/PianoRollView.swift](/DAW/Features/PianoRoll/PianoRollView.swift) | Swift | 180 | 0 | 23 | 203 |
+| [DAW/Features/Settings/AudioPreferencesView.swift](/DAW/Features/Settings/AudioPreferencesView.swift) | Swift | 324 | 7 | 47 | 378 |
+| [DAW/Features/Settings/PerformancePanelView.swift](/DAW/Features/Settings/PerformancePanelView.swift) | Swift | 107 | 0 | 19 | 126 |
+| [DAW/Features/Settings/ThemeSettingsView.swift](/DAW/Features/Settings/ThemeSettingsView.swift) | Swift | 275 | 9 | 35 | 319 |
+| [DAW/Features/Sidebar/LibraryBrowserView.swift](/DAW/Features/Sidebar/LibraryBrowserView.swift) | Swift | 276 | 0 | 25 | 301 |
+| [DAW/Features/Sidebar/SidebarView.swift](/DAW/Features/Sidebar/SidebarView.swift) | Swift | 43 | 0 | 5 | 48 |
+| [DAW/Features/Timeline/MetalTimelineRenderer.swift](/DAW/Features/Timeline/MetalTimelineRenderer.swift) | Swift | 372 | 5 | 65 | 442 |
+| [DAW/Features/Timeline/TimelineMetalView.swift](/DAW/Features/Timeline/TimelineMetalView.swift) | Swift | 80 | 0 | 20 | 100 |
+| [DAW/Features/Timeline/TimelineView.swift](/DAW/Features/Timeline/TimelineView.swift) | Swift | 99 | 0 | 11 | 110 |
+| [DAW/Features/Timeline/TimelineViewModel.swift](/DAW/Features/Timeline/TimelineViewModel.swift) | Swift | 90 | 0 | 13 | 103 |
+| [DAW/Features/Toolbar/DAWToolbarView.swift](/DAW/Features/Toolbar/DAWToolbarView.swift) | Swift | 166 | 0 | 12 | 178 |
+| [DAW/Features/Tracks/DragState.swift](/DAW/Features/Tracks/DragState.swift) | Swift | 26 | 0 | 5 | 31 |
+| [DAW/Features/Tracks/SelectionStore.swift](/DAW/Features/Tracks/SelectionStore.swift) | Swift | 53 | 0 | 10 | 63 |
+| [DAW/Features/Tracks/TrackCreationSheet.swift](/DAW/Features/Tracks/TrackCreationSheet.swift) | Swift | 297 | 0 | 25 | 322 |
+| [DAW/Features/Tracks/TrackInputConfiguration.swift](/DAW/Features/Tracks/TrackInputConfiguration.swift) | Swift | 53 | 0 | 9 | 62 |
+| [DAW/Features/Tracks/TrackListView.swift](/DAW/Features/Tracks/TrackListView.swift) | Swift | 821 | 15 | 102 | 938 |
+| [DAW/Features/Tracks/TrackListViewModel.swift](/DAW/Features/Tracks/TrackListViewModel.swift) | Swift | 399 | 15 | 67 | 481 |
+| [DAW/Features/Transport/TransportView.swift](/DAW/Features/Transport/TransportView.swift) | Swift | 110 | 0 | 22 | 132 |
+| [DAW/Features/Transport/TransportViewModel.swift](/DAW/Features/Transport/TransportViewModel.swift) | Swift | 24 | 0 | 4 | 28 |
+| [DAW/Resources/Assets.xcassets/Contents.json](/DAW/Resources/Assets.xcassets/Contents.json) | JSON | 6 | 0 | 1 | 7 |
+| [DAW/Services/AudioDeviceManager.swift](/DAW/Services/AudioDeviceManager.swift) | Swift | 317 | 0 | 44 | 361 |
+| [DAW/Services/AudioService.swift](/DAW/Services/AudioService.swift) | Swift | 156 | 8 | 33 | 197 |
+| [DAW/Services/AudioSettings.swift](/DAW/Services/AudioSettings.swift) | Swift | 102 | 0 | 23 | 125 |
+| [DAW/Services/InputMonitoringManager.swift](/DAW/Services/InputMonitoringManager.swift) | Swift | 74 | 3 | 17 | 94 |
+| [DAW/Services/MeteringManager.swift](/DAW/Services/MeteringManager.swift) | Swift | 126 | 3 | 19 | 148 |
+| [DAW/Services/ProjectService.swift](/DAW/Services/ProjectService.swift) | Swift | 88 | 0 | 22 | 110 |
+| [DAW/Services/SoloStereoManager.swift](/DAW/Services/SoloStereoManager.swift) | Swift | 47 | 6 | 11 | 64 |
+| [DAW/Services/WaveformService.swift](/DAW/Services/WaveformService.swift) | Swift | 72 | 0 | 15 | 87 |
+| [DAW/Shared/Components/ResizablePanel.swift](/DAW/Shared/Components/ResizablePanel.swift) | Swift | 45 | 0 | 6 | 51 |
+| [DAW/Shared/DesignSystem/AppTheme.swift](/DAW/Shared/DesignSystem/AppTheme.swift) | Swift | 36 | 2 | 10 | 48 |
+| [DAW/Shared/DesignSystem/DAWColors.swift](/DAW/Shared/DesignSystem/DAWColors.swift) | Swift | 36 | 3 | 3 | 42 |
+| [DAW/Shared/DesignSystem/Theme.swift](/DAW/Shared/DesignSystem/Theme.swift) | Swift | 81 | 13 | 18 | 112 |
+| [DAW/Shared/DesignSystem/ThemeManager.swift](/DAW/Shared/DesignSystem/ThemeManager.swift) | Swift | 84 | 20 | 21 | 125 |
+| [DAW/Shared/DesignSystem/ThemePresets.swift](/DAW/Shared/DesignSystem/ThemePresets.swift) | Swift | 190 | 12 | 12 | 214 |
+| [DAW/Shared/Extensions/AudioLevels.swift](/DAW/Shared/Extensions/AudioLevels.swift) | Swift | 44 | 15 | 12 | 71 |
+| [DAW/Shared/Extensions/FoundationExtensions.swift](/DAW/Shared/Extensions/FoundationExtensions.swift) | Swift | 13 | 0 | 2 | 15 |
+| [DAW/Shared/Models/AudioClip.swift](/DAW/Shared/Models/AudioClip.swift) | Swift | 50 | 0 | 5 | 55 |
+| [DAW/Shared/Models/Project.swift](/DAW/Shared/Models/Project.swift) | Swift | 88 | 0 | 10 | 98 |
+| [DAW/Shared/Models/Track.swift](/DAW/Shared/Models/Track.swift) | Swift | 788 | 1 | 59 | 848 |
+| [DAW/Shared/Models/TrackTemplate.swift](/DAW/Shared/Models/TrackTemplate.swift) | Swift | 77 | 1 | 9 | 87 |
+| [DAW/Shared/Models/TransportState.swift](/DAW/Shared/Models/TransportState.swift) | Swift | 31 | 0 | 5 | 36 |
+| [DAW/Shared/PerformanceLogger.swift](/DAW/Shared/PerformanceLogger.swift) | Swift | 79 | 3 | 22 | 104 |
+| [DAW/Shared/State/WorkspaceState.swift](/DAW/Shared/State/WorkspaceState.swift) | Swift | 51 | 0 | 8 | 59 |
+| [project.yml](/project.yml) | YAML | 41 | 0 | 3 | 44 |
+
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

@@ -1,0 +1,104 @@
+{
+  "sdk": "vltone.theme",
+  "version": 2,
+  "readTool": "get_theme_draft",
+  "writeTool": "edit_theme_draft",
+  "identity": "semantic element ID",
+  "revision": "opaque string returned by read or successful write",
+  "lookup": [
+    "elementQuery",
+    "commandQuery",
+    "section + id",
+    "topic"
+  ],
+  "sections": [
+    "name",
+    "defaults",
+    "palette",
+    "components",
+    "elements",
+    "layouts",
+    "panels",
+    "editorGrid",
+    "headerBackdrop",
+    "appearance"
+  ],
+  "states": [
+    "hover",
+    "pressed",
+    "focused",
+    "disabled",
+    "checked"
+  ],
+  "materials": [
+    "glass",
+    "flat",
+    "gradient",
+    "layers"
+  ],
+  "layerTypes": [
+    "rect",
+    "ellipse",
+    "line",
+    "path",
+    "text",
+    "image"
+  ],
+  "layoutModes": [
+    "row",
+    "column",
+    "grid",
+    "free"
+  ],
+  "panelControls": [
+    "button",
+    "toggle",
+    "number",
+    "slider",
+    "text",
+    "choice",
+    "label"
+  ],
+  "parameters": [
+    "transport.tempo",
+    "selectedTrack.solo",
+    "selectedTrack.mute",
+    "selectedTrack.pan",
+    "selectedTrack.volume"
+  ],
+  "merge": {
+    "objects": "recursive",
+    "arrays": "replace",
+    "null": "remove",
+    "staleRevision": "error; read current draft"
+  },
+  "runtime": "Existing command IDs or separately installed Script SDK commands; Lua generators produce declarative data.",
+  "stateCombinations": "join distinct state names with +",
+  "inheritance": [
+    "defaults",
+    "components",
+    "elements",
+    "componentOverrides",
+    "overrides"
+  ],
+  "units": "logical pixels; named anchors or percentages supported by layouts",
+  "graphics": {
+    "image": "asset key in assets",
+    "frames": "vertical strip indexed by control value",
+    "slices": "four source edge margins",
+    "repeatX": "single image, preserves aspect ratio; incompatible with slices or frames",
+    "iconSize": "show native command icon above artwork",
+    "iconCenterX/Y": "normalized icon centre"
+  },
+  "examples": [
+    "example-json",
+    "example-lua",
+    "script-example"
+  ],
+  "resources": {
+    "schema": "vltone://theme/contract",
+    "agent": "vltone://theme/ai",
+    "format": "vltone://theme/reference",
+    "language": "vltone://lua/api"
+  }
+}

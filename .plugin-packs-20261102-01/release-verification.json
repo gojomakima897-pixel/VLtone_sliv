@@ -1,0 +1,32 @@
+{
+  "network_regression_passes": 12,
+  "pack_acceptance_exit": 0,
+  "pack_acceptance_passes": 58,
+  "publication": "published",
+  "install_stage_exit": 0,
+  "general_ui_selftest_en_exit": 19,
+  "general_ui_selftest_previous_en_exit": 36,
+  "application_sha256": "e10d01ca36b00c4aac9e88fa77b818a3c2add919af0da48e540b7e2791a1afae",
+  "general_ui_failures": [
+    "Intermittent sampler note detection",
+    "Timeline test attempted a gesture outside visible lanes at default window height"
+  ],
+  "installed_packs_survive_application_update": true,
+  "general_ui_selftest_ru_exit": null,
+  "plugin_pack_storage": "%LOCALAPPDATA%\\VLTONE\\PluginPacks",
+  "deployed_startup_en_exit": 0,
+  "build_exit": 0,
+  "pack_sha256": "98610600c63d5c26f41ef8d8ebf4c6a2f14e42408e9403237ccedfe48cf1920d",
+  "cl1_excluded_from_installer": true,
+  "checked_at": "2026-11-02T19:04:46.0651757Z",
+  "public_download_passes": 4,
+  "application_version": "0.6.1",
+  "release_status": "Candidate for review; broad application UI regression is unresolved",
+  "deployed_startup_ru_exit": 0,
+  "installer_bytes": 584736799,
+  "installer_sha256": "e1464d15da99d22ed931588fa74293be922cec75c06006be1335f63173c8073a",
+  "installer_exit": 0,
+  "updater_regression_passes": 25,
+  "public_catalog_verified": true,
+  "completed_at": "2026-11-02T19:12:31.8336436Z"
+}
