@@ -69,9 +69,9 @@ versioned API base URL (for production, `https://vltstudio.ru/api/v1`). Headless
 authorization-bypass flag.
 
 The Demo subscription is indefinite, enables all features and renews a
-20,000,000-token AI allowance at each UTC calendar-month boundary. Production
-startup requires an Ed25519 seed, HTTPS origins and a positive
-`AI_GLOBAL_MONTHLY_TOKEN_LIMIT`. Provider keys stay in the Go process.
+20,000,000-token monthly usage allowance at each UTC calendar-month boundary.
+Production startup requires an Ed25519 seed, HTTPS origins and a positive
+global monthly token limit. Provider keys stay in the Go process.
 
 Next.js 16.2.11 is intentionally pinned for the initial internal build. A tag or
 `VLT_PUBLIC_RELEASE=1` runs `pnpm check:release-security` and is blocked until
